@@ -1,5 +1,4 @@
-# Results for Camera Style Adaptation for Person Re-identification
-================================================================
+# Results for CamStyle
 
 <table>
    <tr>
