@@ -21,9 +21,12 @@
    - DukeMTMC-reID-CamStyle  [[GoogleDriver]](https://drive.google.com/open?id=1QX3K_RK1wBPPLQRYRyvG0BIf-bzsUKbt)
    
    - Move them to 'CamStyle/data/market (or duke)/bounding_box_train_camstyle'
+   
  ### CamStyle Generation
+ 
 You can generate CamStyle imgaes with [CycleGAN-for-CamStyle](https://github.com/zhunzhong07/CamStyle/tree/master/CycleGAN-for-CamStyle)
- ### Training and test re-ID model
+
+### Training and test re-ID model
  1. IDE
   ```Shell
   # For Market-1501
@@ -112,12 +115,16 @@ You can generate CamStyle imgaes with [CycleGAN-for-CamStyle](https://github.com
       <td>55.0</td>
    </tr>
 </table>
+
  ### References
+ 
  - [1] Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
  - [2] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks, ICCV 2017
  - [3] Re-ranking Person Re-identification with k-reciprocal Encoding. CVPR 2017.
  - [4] Random Erasing Data Augmentation. Arxiv 2017.
+ 
  ### Citation
+ 
  If you find this code useful in your research, please consider citing:
      @inproceedings{zhong2018camera,
     title={Camera Style Adaptation for Person Re-identification},
